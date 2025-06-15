@@ -1,0 +1,157 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f4f6f8;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .menu a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+.navbar .menu a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    padding: 30px;
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background: #ecf0f1;
+    margin-top: 50px;
+}
+
+.product-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
+}
+
+.product-table th,
+.product-table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.product-table th {
+    background-color: #2c3e50;
+    color: white;
+}
+
+.add-btn {
+    display: inline-block;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.add-btn:hover {
+    background-color: #219150;
+}
+
+.action-links a {
+    text-decoration: none;
+    /* Bỏ gạch chân */
+    margin: 0 10px;
+    /* Khoảng cách trái phải */
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.action-links a:hover {
+    text-decoration: underline;
+    color: #1a5fa3;
+}
+
+.product-form {
+    background: #ffffff;
+    padding: 25px;
+    border-radius: 10px;
+    max-width: 700px;
+    margin: 40px auto;
+    display: block;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.product-form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.product-form input[type="text"],
+.product-form input[type="number"],
+.product-form input[type="file"],
+.product-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+.product-form button {
+    margin-top: 20px;
+    background-color: #27ae60;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.product-form button:hover {
+    background-color: #219150;
+}
+
+td img {
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+td img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #aaa;
+}
+
+select {
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
